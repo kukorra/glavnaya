@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="js.js"></script>
+    <title>Страница 3</title>
+    <style> 
+    body { 
+      background-image: url('1.jpg'); 
+      background-size: cover; 
+      background-attachment: fixed; 
+    } 
+    </style> 
+</head>
+<body>
+<header>
+    <img src="kot3.jpg" alt="Логотипчик" onclick="window.location.href='glav.html'" width="240" height="240">
+</header>
+<nav>
+    <ul>
+        <p>Переход на первую страничку</p>
+        <li><a href="page1.html">click here bro</a></li>
+	<p>Переход на вторую страничку</p>
+        <li><a href="page2.html">click here sis</a></li>
+	<p>Переход на третью страничку</p>
+        <li><a href="page3.html">click here brosis</a></li>
+    </ul>
+</nav>
+<section>
+    <h1>Страница 3</h1>
+    <p>Это содержание страницы 3. Нажмите на логотип в левом верхнем углу, чтобы вернуться на главную страницу.</p>
+    <a><br><br>Сумма чисел:<br></a>
+
+    <input type="text" id="num1"> +
+    <input type="text" id="num2">
+
+    <button onclick="calc()">Посчитать</button>
+
+    <form name="forma1">Укажите ваш пол:<br>
+        <input type="radio" name="sex" value="man" checked> мужской
+        <input type="radio" name="sex" value="woman"> женский
+    </form>
+
+    <form name="forma1">Какой язык вы хотите изучать:
+        <select name="language" size="1">
+            <option selected value="html">html
+            <option value="php">php
+            <option value="java">java
+            <option value="kotlin">kotlin
+            <option value="python">python
+        </select><br><br>
+    </form>
+
+    <form name="forma1">
+        <label for="load">Выберите файл: </label>
+        <input type="file" name="load" size="30">
+    </form>
+</section>
+<footer>
+    &copy; 2023 Made by kukorra
+</footer>
+</body>
+</html>
